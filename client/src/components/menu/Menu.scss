@@ -1,0 +1,27 @@
+$drawerWidth: 240px;
+
+.menu-root {
+  display: flex;
+
+  .appbar {
+    background-color: #1a73e8 !important;
+    z-index: 1201 !important;
+  }
+
+  .menuButton {
+    margin-right: 16px;
+    &:hover {
+      background-color: "#488fed",
+    }
+  }
+  .drawer {
+    width: $drawerWidth;
+    flex-shrink: 0;
+  }
+  .drawerPaper {
+    width: $drawerWidth;
+  }
+  .toolbar {
+    height: 64px
+  }
+}
